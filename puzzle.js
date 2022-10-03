@@ -16,7 +16,6 @@ var currOrder = {'0-0': "4", '0-1': "2", '0-2': "8",
                  '2-0': "7", '2-1': "1", '2-2': "9"};
 
 window.onload = function() {
-    winMessage();
     for (let r=0; r < rows; r++) {
         for (let c=0; c < columns; c++){
 
