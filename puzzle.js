@@ -79,7 +79,7 @@ function dragEnd() {
 
     let isAdjacent = moveLeft || moveRight || moveUp || moveDown;
 
-    if (true) {
+    if (isAdjacent) {
         let currImg = currTile.src;
         let otherImg = otherTile.src;
 
