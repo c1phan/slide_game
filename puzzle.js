@@ -101,7 +101,7 @@ winMessage = function() {
     console.log("func called")
     $("#myModal").modal("show");
     x = document.querySelector(".gamehead");
-    x.textContent = "You Finished"
+    x.textContent = "Slay, Queen!"
 }
 
 document.getElementById('finish').addEventListener("click", myFunction);
